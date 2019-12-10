@@ -61,3 +61,4 @@ class Customer(APIConfig):
         """
         url = self._url("/customer/{}/".format(user_id))
         return self._handle_request('GET', url)
+print("This is paystack")
